@@ -36,12 +36,16 @@ header {
 
 
 /*inicio do estilo menu*/
-#menu{
+.menu{
     
     text-align: center; /*alinhamento do texto*/
     padding: 15px; /*espaço entre a borda e o conteúdo do elemento*/
     background-color: #f4ecf8; /*cor de fundo*/
     color:#3a144d;
+}
+.menu a:not(:first-child):before {
+    content: " | ";
+
 }
 
 /*fim do estilo do menu*/  
