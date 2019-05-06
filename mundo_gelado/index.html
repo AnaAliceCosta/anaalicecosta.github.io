@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Varela+Round" rel="stylesheet">
+    <link rel=stylesheet href="css/style.css">
+    <title>Mundo Gelado</title>
+</head>
+
+<body>
+    <nav class="navegacao">
+        <div class="navegacao__menu">
+            <a href="#sobre">Sobre</a>
+            <a href="#destinos">Destinos</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </nav>
+    <header>
+        <div class="cabecalho__imagem transition">
+            <div class="cabecalho__conteudo">
+                <h1 class="cabecalho__titulo">Mundo Gelado</h1>
+                <h2 class="cabecalho__subtitulo">A agência de viagens que te leva aos lugares mais congelantes do
+                    planeta.</h2>
+            </div>
+            <button class="btn">Quero Saber Mais</button>
+        </div>
+        <div class="cabecalho__apresentacao" id="sobre">
+            <h2 class="apresentacao__titulo">
+                A Agência Mundo Gelado
+            </h2>
+            <p class="apresentacao__texto">
+                Nosso diferencial é te levar para conhecer as mais lindas e geladas paisagens no nosso planeta, com
+                conforto e segurança.
+                Nossos pacotes são completos e oferecem uma experiência inesquecível para você.
+                Veja abaixo nossos destinos disponíveis, e se tiver alguma dúvida ou sugestão, entre em contato com a
+                gente.
+            </p>
+        </div>
+    </header>
+
+    <section class="destinos" id="destinos">
+        <div class="destinos__destaque">
+            <img src="img/siberia-1.jpg" alt="Sibéria" class="destaque__foto">
+            <span class="destino__borda"></span>
+            <div class="destinos__texto">
+                <h3 class="texto--preto">Sibéria</h3>
+                <p class="texto--preto">
+                    O clima varia entre o clima polar e o clima continental. Na Sibéria situa-se o local habitado mais frio do mundo, a aldeia de Oymyakon.
+                </p>
+            </div>
+        </div>
+
+        <div class="mosaico">
+            <div class="mosaico__destino">
+                <div class="destino__container-img">
+                    <img src="img/groenlandia-1.jpg" alt="Foto groenlandia" class="img--mosaico">
+                </div>
+                <div class="mosaico__texto mosaico__texto--1">
+                    <h4 class="destino__titulo">Groenlândia</h4>
+                    <p class="mosaico__paragrafo p_destino--1">A Groenlândia é a maior ilha do mundo e tem mais de 44 000 km de linha de costa. A população é escassa, confinada a pequenos povoados na costa. A ilha tem a segunda maior reserva de gelo do mundo, apenas ultrapassada pela Antártida.</p>
+                </div>
+            </div>
+
+            <div class="mosaico__destino">
+                <div class="mosaico__texto mosaico__texto--2">
+                    <h4 class="destino__titulo">Antártida</h4>
+                    <p class="mosaico__paragrafo">É o continente mais frio, mais seco, com a maior média de altitude
+                    e de maior índice de ventos fortes do planeta.[1] A temperatura mais baixa da Terra (-89,2 °C) foi registrada na Antártica, sendo a temperatura média na costa, durante o verão, de -10 °C; no interior do continente, é de -40 °C.</p>
+                </div>
+                <div class="destino__container-img">
+                    <img src="img/antartida-1.jpg" alt="Foto antartida" class="img--mosaico">
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+    </section>
+    <section class="contato" id="contato">
+        <div class="localizacao">
+            <img src="img/icone-localizacao.png" alt="icone localizaçao">
+            <h3 class="h3--contato">Onde Estamos</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d58515.56956759646!2d-46.68232493565875!3d-23.560429583735825!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1553799005449!5m2!1spt-BR!2sbr"
+                width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="form">
+            <h3 class="h3--contato">Fale com a gente</h3>
+            <form action="#" method="GET" class="formulario">
+                <label for="nome">Nome completo</label>
+                <input type="text" name="texto" placeholder="fulano de tal">
+
+                <label for="email">Email</label>
+                <input type="text" name="email" placeholder="fulano@gmail.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="text" name="telefone" placeholder="11 87589-8764">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea type="textarea" row="5" name="mensagem" placeholder="Deixe sua mensagem aqui...">
+                </textarea>
+            </form>
+            <button class="btn">Enviar</button>
+        </div>
+    </section>
+    <footer class="rodape">
+        <p>Telefone: (11) 1234-5678</p>
+        <div class="redes-sociais">
+            <a href="http://twitter.com"><img src="img/twitter.png" alt="logo twitter"
+                    class="redes-sociais__logo"></a>
+            <a href="http://facebook.com"><img src="img/facebook.png" alt="logo facebook"
+                    class="redes-sociais__logo"></a>
+            <a href="http://youtube.com"><img src="img/youtube.png" alt="logo youtube"
+                    class="redes-sociais__logo"></a>
+        </div>
+        <p><small>Copyright © Agência Mundo Gelado 2019</small></p>
+    </footer>
+</body>
+
+</html>

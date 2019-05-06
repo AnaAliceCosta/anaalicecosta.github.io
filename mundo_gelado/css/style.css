@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* foi isso que estava dando erro no mosaico */
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: Nunito;
+    font-size: 16px;
+    background-color: #f8f9fa;
+  }
+
+/* NAVEGAÇÃO */
+
+.navegacao {
+    position: fixed;
+    top: 0;
+    background-color: #a0bed0;
+    font-size: 15px;
+    padding: 20px;
+    width: 100vw;
+
+    /* define a prioridade de um elemento para sobreposição */
+}
+
+.navegacao__menu {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin-right: 200px;
+
+}
+
+.navegacao__menu > a {
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  
+}
+
+
+/*CABEÇALHO*/
+
+.transition {
+    transition: all 1s;
+  }
+
+.cabecalho__imagem {
+    background: url("../img/foto-banner.jpg");
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:40px;
+}
+
+.cabecalho__conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cabecalho__titulo{
+    font-size: 105px;
+    font-family: 'Varela Round', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: normal;
+    opacity: .8;
+}
+
+.cabecalho__subtitulo {
+    font-size: 18px;
+    font-family: 'Varela Round', sans-serif;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-weight: normal;
+    opacity: .8
+}
+
+.btn {
+    padding: 15px;
+    font-size: 12px;
+    background-color: #829dad;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #36b0e0;
+
+}
+
+.cabecalho__apresentacao {
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.apresentacao__titulo {
+    color: white;
+    padding-bottom: 30px;
+}
+
+.apresentacao__texto {
+    color: white;
+    width: 500px;
+    text-align: center;
+}
+
+/* DESTINOS */
+
+.destinos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.destinos__destaque {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 70vw;
+ margin: 70px 0;
+}
+
+.destaque__foto {
+    width: 50vw;
+}
+
+.destino__borda {
+    width: 5px;
+    height: 120px;
+    background-color: #829dad;
+    display: block;
+  }
+
+
+.destinos__texto {
+    width: 16vw;
+    margin-left: 3vw;
+}
+
+/* MOSAICO */
+
+.mosaico__destino {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+  }
+  
+.img--mosaico {
+    max-height: 300px;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  
+.mosaico__texto {
+    background: #161616;
+    height: inherit;
+    width: 50%;
+  }
+  
+
+.destino__titulo {
+    color: white;);
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+  }
+
+  
+.mosaico__paragrafo {
+    color: rgba(255,255,255,.5);
+}
+
+.p_destino--1{
+    max-width: 80%;
+}
+
+.destino__container-img {
+    width: 50%;
+}
+
+.mosaico__texto--1 {
+    padding-left: 40px;
+}
+
+.mosaico__texto--2 {
+    padding-right: 40px;
+    text-align: right;
+}
+
+
+/* CONTATO */
+.contato {
+    margin-top: 70px;
+    background: url(../img/foto-footer.jpg);
+    padding: 40px;
+}
+
+.h3--contato {
+    margin: 20px;
+    color: white;
+}
+
+.localizacao,
+.form,
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+/* RODAPÉ */ 
+
+.rodape {
+    background-color: #161616;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rodape > p {
+    color: white;
+}
+
+.redes-sociais {
+    display: flex;
+    width: 15vw;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.redes-sociais__logo {
+    width: 40px;
+    opacity: 0.5;
+}
+
+.redes-sociais__logo:hover {
+    opacity: 1;
+}
